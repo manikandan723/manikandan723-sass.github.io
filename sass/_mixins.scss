@@ -1,0 +1,16 @@
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin transition($property, $duration) {
+    transition: $property $duration;
+  }
+  
+  @mixin container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }

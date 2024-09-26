@@ -1,0 +1,42 @@
+// Components
+.navbar {
+    background-color: $primary-color;
+    padding: $padding;
+    .brand {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .nav {
+      list-style: none;
+      display: flex;
+      li {
+        margin: 0 10px;
+        a {
+          color: white;
+          text-decoration: none;
+          @include transition(color, 0.3s);
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+  
+  .header {
+    background-color: $secondary-color;
+    padding: $padding * 2;
+    text-align: center;
+    h1 {
+      color: white;
+      font-size: calculate-rem(36px);
+    }
+  }
+  
+  .card {
+    @extend %card;
+    h2 {
+      color: $primary-color;
+    }
+  }

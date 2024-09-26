@@ -1,0 +1,4 @@
+// SASS Functions
+@function calculate-rem($size) {
+    @return $size / 16 * 1rem;
+  }

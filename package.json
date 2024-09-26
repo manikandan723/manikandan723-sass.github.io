@@ -1,0 +1,14 @@
+{
+    "name": "tourism-places",
+    "version": "1.0.0",
+    "description": "Tourism places website using SASS",
+    "main": "index.js",
+    "scripts": {
+      "build-css": "sass sass/main.scss css/style.css --no-source-map"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "sass": "^1.32.12"
+    }
+  }

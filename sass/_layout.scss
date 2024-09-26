@@ -1,0 +1,11 @@
+// Layout
+.container {
+    @include container;
+  }
+  
+  .footer {
+    background: $primary-color;
+    color: white;
+    text-align: center;
+    padding: $padding;
+  }
